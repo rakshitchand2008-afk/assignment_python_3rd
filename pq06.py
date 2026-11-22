@@ -1,0 +1,5 @@
+text = input("Enter a string: ")
+uppercase = sum(1 for char in text if char.isupper())
+lowercase = sum(1 for char in text if char.islower())
+print("Uppercase characters:", uppercase)
+print("Lowercase characters:", lowercase)
